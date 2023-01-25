@@ -1,0 +1,47 @@
+
+body {
+    background-color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:blueviolet;
+
+
+}
+
+.container {
+    
+    background-color: blue;
+}
+
+#boton-color {
+    background-color: brown;
+    color: aliceblue;
+}
+
+.container1 {
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+
+    
+    
+}
+
+@media(max-width:600px) {
+    body{
+        background-color: brown;
+        color: aliceblue;
+    }
+}
